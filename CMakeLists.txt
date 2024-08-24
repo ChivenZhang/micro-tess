@@ -31,7 +31,7 @@ target_include_directories(
 set(CMAKE_SKIP_INSTALL_ALL_DEPENDENCY true)
 
 # add the targets examples project
-add_subdirectory(examples)
+# add_subdirectory(examples)
 
 ### install
 install(TARGETS ${PROJECT_NAME}
